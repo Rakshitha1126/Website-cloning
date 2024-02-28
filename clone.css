@@ -1,0 +1,728 @@
+body{
+   padding: 0;
+   margin: 0;
+}
+
+/* style for home section starts */
+
+.imge{
+  float: right;
+  height: 400px;
+  padding-top: 40px;
+}
+
+*{box-sizing: border-box;}
+      body {font-family: Verdana, sans-serif;}
+      /* .mySlides {display: none;} */
+            /* {position:absolute;}
+           img {veposition: relative;rtical-align: middle;} */
+            
+            /* Slideshow container */
+            .slideshow-container {
+              /* max-width: 1000px; */
+              /* margin: auto; */
+              margin-top: 150px;
+              transition-duration: 5s;
+              padding-left: 50px;
+              margin-left: 50px;
+              /* margin-right: 150px; */
+              /* width: 30em; */
+              text-align: center;
+            }
+              .home{
+                padding-top: 100px;
+              }
+            
+            .imge{
+              height:100%;
+            }
+             .mySlidesfade, h2{
+              font-size:50px;
+              text-align: center;
+              
+             }
+             .mySlidesfade,p{
+              font-size: 30px;
+             
+              
+             }
+             .mySlidesfade,button{
+              padding: 25px;
+              border-radius: 5px;
+              text-decoration: none;
+              background-color: rgb(220, 76, 76);
+              color:white;
+              font-size: 20px;
+              margin:50px ;
+              padding-right: 30px;
+             }
+              
+              
+          
+      
+            
+            /* The dots/bullets/indicators */
+            .dot {
+              height: 25px;
+              width: 30px;
+              margin: 0 2px;
+              background-color: #bbb;
+              border-radius: 50%;
+              display: inline-block;
+              align-items: center;
+              
+              /* transition: background-color 0.6s ease; */
+              
+            }
+            
+            .active {
+              background-color: #717171;
+            }
+            
+            /* Fading animation */
+             .fade {
+                animation-name:fade ;
+              animation-duration: 4.5s;
+            } 
+            
+            @keyframes fade {
+              from {opacity: 0.0} 
+              to {opacity: 1}
+            }
+/* style for home section ends */
+
+/* style for header section starts */
+.logo{ 
+     padding-left: 150px;  
+     height: 80px; 
+     padding-right: 350px;
+     
+}
+
+
+.navbar a{
+     
+     text-decoration: none;
+     font-size: 25px;
+     margin-left: 50px;
+     color: rgb(7, 7, 9);
+     font-weight: bold;
+}
+header{
+     position: fixed;
+     top:0;left:0;right:0;
+     padding: 10px;
+     display: flex;
+     align-items:end;
+     justify-content: space-between;
+     background-color:rgb(255, 255, 255);
+     box-shadow: 2.5px 2.5px 2px 2px rgb(40, 38, 38);
+     z-index: 5;
+ }
+ header #toggler{
+    display:none;
+}
+
+header #bars{
+    font-size: 40px;
+    color:rgb(69, 60, 60);
+    background-color: antiquewhite;
+    border:4px solid black;
+    padding: 4px;
+    border-radius: 25%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: none;
+}
+  /* style for header section ends */
+
+  /* style for about section starts  */
+ .About{
+     padding-top: 200px;
+     text-align: center;
+     margin-left: 350px;
+     margin-right: 350px;
+ }
+
+ .head{
+     color: rgb(53, 52, 52);
+     font-size: 50px;
+     font-weight:400;
+     
+ }
+
+ .para{
+     color: rgb(45, 44, 46);
+     font-size: 35px;
+     text-align: center;
+     font-weight:600;
+     line-height: 150%;
+     padding-top: 10px; 
+ }
+
+ .images{
+     display: flex;
+     height: 50px;
+     padding-bottom: 10px;
+     justify-content: center;
+     justify-content:space-around;
+    
+ }
+
+  /* style for Services section starts */
+ .Services{
+  padding-top: 175px;
+ }
+ .Services h1{
+  font-size: 30px;
+  color: #353232;
+ }
+ .Services p{
+  color: #555252;
+  font-size: 30px;
+ }
+.full{
+  display:flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+.Services h1,p{
+  text-align: center;
+}
+.plan1{
+  width: 50em;
+  text-align: center;
+  padding-right: 20px;
+}
+.plan2{
+  width: 50em;
+  text-align: center;
+  padding-right: 20px;
+}
+.plan3{
+  width: 50em;
+  text-align: center;
+}
+.plan1 p{
+  line-height: 1.5;
+}
+.plan2 p{
+  line-height: 1.5;
+}
+.plan3 p{
+  line-height: 1.5;
+}
+.plan1 h3{
+  font-size: 20px;
+  color:rgb(224, 54, 54);
+}
+.plan2 h3{
+  font-size: 20px;
+  color:rgb(224, 54, 54);
+}
+
+.plan3 h3{
+  font-size: 20px;
+  color:rgb(224, 54, 54);
+}
+/* style for Services section ends */
+
+/* style for clients section starts */
+
+.Clients{
+  padding-top: 150px;
+}
+.Clients h2,p{
+  text-align: center;
+  
+}
+.Clients p{
+  font-size: 30px;
+}
+.title{
+  font-size: 30px;
+  color: #353232;
+}
+
+.intro{
+  font-size: 20px;
+  
+} 
+
+.img{
+  margin-left: 120px;
+  margin-right: 120px;
+  
+}
+.img{
+  margin-left: 390px;
+  margin-right: 350px;
+}
+/* style for clients section ends */
+
+/* style for career section starts */
+.Careers{
+  padding-top: 150px;
+
+}
+.Careers h2,p{
+  text-align: center;
+}
+/* .Careers h2{
+  font-size: 70px;
+} */
+/* .Careers p{
+  width:75em;
+  font-size: 25px;
+}  */
+
+.cards{
+  display: flex;
+  padding-left: 450px;
+  padding-right: 450px;
+}
+.card-body1{
+  padding: 25px;
+  margin: 40px;
+  border: 1px solid black;
+ 
+  height: 400px;
+  color:white;
+ 
+  border-radius: 10%;
+  background-color:rgb(83, 192, 130);
+  list-style: none;
+}
+.card-body1 li{
+  padding-left: 55px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.card-body1 h5{
+  text-align: center;
+  font-size: 19px;
+}
+.button1{
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: aquamarine;
+  color:white;
+  font-size: 20px;
+  margin:50px ;
+}
+.card-body2{
+  padding: 15px;
+  margin: 30px;
+  border: 1px solid black;
+  
+  height: 400px;
+  color:white;
+
+  border-radius: 10%;
+  background-color:skyblue;
+  list-style: none;
+}
+.card-body2 li{
+  padding-left: 55px;
+  padding-bottom: 25px;
+ 
+}
+.card-body2 h5{
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+}
+ 
+
+ .button2{
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: aquamarine;
+  color:white;
+  font-size: 20px;
+  margin: 50px;
+ }
+ 
+
+.card-body3{
+  padding: 15px;
+  margin: 30px;
+  
+  border: 1px solid black;
+  
+  height: 400px;
+  color:white;
+ 
+  border-radius: 10%;
+  background-color:chocolate;
+  list-style: none;
+  
+}
+.card-body3 li{
+  padding-left: 55px;
+ 
+  padding-bottom: 20px;
+  padding-top: 20px;
+ 
+ 
+}
+.card-body3 h5{
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+}
+ 
+.button3{
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: aquamarine;
+  color:white;
+  font-size: 20px;
+  margin: 50px;
+}
+ /* style for clients section ends */
+
+ /* style for contact section starts */
+ .Contact{
+  border: 1px solid black;
+  height: 720px;
+  background-image: url(images/map1.png);
+  background-repeat: no-repeat;
+  background-size:150em;
+ }
+ .Contact h2{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+ }
+ .contact-content p{
+  text-align: center;
+  font-size: 25px;
+  padding-top: 30px;
+  color: white;
+  /* width: 80em; */
+ }
+ .btn{
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: rgb(180, 46, 46);
+  color:white;
+  font-size: 20px;
+  margin-left: 1000px;
+ }
+/* style for contact section ends */
+
+/* style for footer section starts */
+.footer{
+  border:1px solid black;
+  height: 60px;
+  background-color: #211f1f;
+}
+.container1{
+  font-size: 25px;
+  color:white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header section starts */
+ @media(max-width:991px){
+    .logo{
+        padding-left: 50px;
+        padding-right: 5px;
+    }
+   
+    .About{
+      padding-top: 200px;
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+  /* clients section
+.Clients h2,p{
+  text-align: center;
+}
+.img{
+  margin-left: 120px;
+  margin-right: 80px;
+  
+} */
+/* careers section  */
+.cards{
+  display: block;
+  padding-left: 160px;
+  padding-right: 80px;
+}
+/* contact section */
+.Contact{
+  background-image: url(images/map1.png);
+  background-size: 900px;
+  height: 500px;
+
+  
+}
+.Contact h2{
+  
+  font-size: 30px;
+}
+.contact-content p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.btn{
+  margin-left: 140px;
+  margin-bottom: 90px;
+}
+
+  
+  }
+
+ @media(max-width:1469px){
+    .logo{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+ }
+ @media(max-width:813px){
+  /* header section starts */
+   header #bars{
+    display: block;
+   }
+
+   header .navbar{
+    background-color:dimgray;
+    border-top: 2px solid black;
+    top:100%; left:0; right:0;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 0,0 0);
+    display: block;
+   }
+   header .navbar a{
+    margin:4px;
+    padding: 4px;
+    background:transparent rgb(123, 123, 142) ;
+    display:block;
+    
+   
+   }
+   header #toggler:checked ~ .navbar{
+    clip-path: polygon(100% 100%,0% 100%,0% 0%,100% 0%);
+    padding-left: 300px;
+    padding-right: 300px;
+
+   
+}
+/* clients section
+.Clients h2,p{
+  text-align: center;
+}
+.img{
+  margin-left: 120px;
+  margin-right: 80px;
+  
+} */
+/* careers section  */
+.cards{
+  display: block;
+  padding-left: 60px;
+  padding-right: 80px;
+}
+/* contact section */
+.Contact{
+  background-image: url(images/map1.png);
+  background-size: 900px;
+  height: 500px;
+
+  
+}
+.Contact h2{
+  
+  font-size: 30px;
+}
+.contact-content p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.btn{
+  margin-left: 140px;
+  margin-bottom: 90px;
+}
+
+}  
+
+ @media(max-width:613px){
+    header #toggler:checked ~ .navbar{
+        clip-path: polygon(100% 100%,0% 100%,0% 0%,100% 0%);
+        padding-left: 350px;
+        padding-right: 300px;
+       }
+       /* home section */
+       .imge{
+        width:25em;
+        padding-left: 50px;
+        ;
+
+        /* size: 20px; */
+       }
+       .slideshow-container{
+        margin-bottom:150px ;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* width:10em; */
+        /* padding-right: 10px; */
+       }
+       .mySlidesfade, h2{
+        font-size:30px;
+       }
+       .mySlidesfade,p{
+        font-size: 20px;
+       }
+       
+       .About{
+        margin-left: 0px;
+        margin-right:0px;
+               
+       }
+       .para{
+        font-size: 20px;
+        font-weight: 300;
+       } 
+       /* service section */
+       .full{
+        display:inline-block;
+        padding-left: 75px;
+        padding-right: 75px;
+       }
+       .plan1{
+        width: 20em;
+        text-align: center;
+        padding-right: 20px;
+      }
+      .plan2{
+        width: 20em;
+        text-align: center;
+        padding-right: 20px;
+      }
+      .plan3{
+        width: 20em;
+        text-align: center;
+      }
+      .Services h1,p{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      /* Clients section */
+      .Clients h2,p{
+        text-align: center;
+      }
+      .img{
+        margin-left: 120px;
+        margin-right: 80px;
+        
+      }
+      /* careers section  */
+      .cards{
+        display: block;
+        padding-left: 60px;
+        padding-right: 80px;
+      }
+      /* contact section */
+      .Contact{
+        background-image: url(images/map1.png);
+        background-size: 900px;
+        height: 500px;
+        width: 30em;
+      
+        
+      }
+      .Contact h2{
+        
+        font-size: 30px;
+      }
+      .contact-content p{
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .btn{
+        margin-left: 140px;
+        margin-bottom: 90px;
+      }
+      .footer{
+        width: 30em;
+      }
+      }
+      
+
+      
